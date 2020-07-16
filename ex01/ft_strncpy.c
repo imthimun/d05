@@ -6,7 +6,7 @@
 /*   By: imthimun <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/16 08:46:30 by imthimun          #+#    #+#             */
-/*   Updated: 2020/07/16 09:01:00 by imthimun         ###   ########.fr       */
+/*   Updated: 2020/07/16 09:32:22 by imthimun         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,5 +21,5 @@ char *ft_strncpy(char *dest, char *src, unsinged int n)
 		curr_char++;
 	}
 	dest[curr_char] = '\0';
-	return dest;
+	return (dest);
 }
