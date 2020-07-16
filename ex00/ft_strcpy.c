@@ -6,13 +6,13 @@
 /*   By: imthimun <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/15 17:23:48 by imthimun          #+#    #+#             */
-/*   Updated: 2020/07/15 17:50:41 by imthimun         ###   ########.fr       */
+/*   Updated: 2020/07/16 08:40:05 by imthimun         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 char *ft_strcpy(char *dest, char *src)
 {
-	int		curr_char,i=1;
+	int		curr_char;
 
 	curr_char = 0;
 	while(src[curr_char] != '\0')
@@ -20,6 +20,7 @@ char *ft_strcpy(char *dest, char *src)
 		dest[curr_char] = src[curr_char];
 		curr_char++;
 	}
+	dest[curr_char] = '\0'
 	return dest;
 }
 
